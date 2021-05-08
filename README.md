@@ -14,11 +14,17 @@
 
 &nbsp;
 
+[Fix GML being recognised as Yacc on GitHub](https://www.reddit.com/r/gamemaker/comments/n5m35l/a_simple_fix_for_github_incorrectly_detecting/)
+
 [GMLScripts.com](https://www.gmlscripts.com/)
+
+[GM Core (Buncha libraries rolled into one)](https://github.com/gm-core)
 
 [Gleb Tsereteli's GameMaker 2.3 Resources](https://docs.google.com/document/d/1wUm8FZPm8AKLZgC-P76TPJAMXs0EN2s5mJGvvUFwycw)
 
 [GMS2.3 Destructors](https://github.com/DatZach/Destructors)
+
+[Community Wiki](https://gmcw.dev/)
 
 [RenderDoc for GameMaker](https://github.com/Blokatt/renderdoc-gms2-kit)
 
@@ -93,3 +99,19 @@
 [Ultralight (HTML Renderer)](https://github.com/nommiin/ultralight-gm)
 
 [Three Mice In A Trenchcoat Source](https://github.com/XorDev/ThreeMiceInaTrenchcoat/wiki)
+
+[Promises](https://github.com/YAL-GameMaker/Promise.gml)
+
+[GameMaker .win Unpacker](https://github.com/nkrapivin/pugIFF)
+
+[i18n JSON-based Localisation](https://github.com/CreativeHandOficial/gm-i18n)
+
+[GMTwerk2](https://github.com/dicksonlaw583/GMTwerk2)
+
+[Various Lighting Systems](https://www.youtube.com/playlist?list=PLYVea5brHS8YHECGPoEp4_gWU-k6nWzUy)
+
+[.webm Video Player](https://marketplace.yoyogames.com/assets/9790/webm-player)
+
+[JSONBabel (Translation)](https://comigo.itch.io/jsonbabel)
+
+[Multi-Window Games](https://github.com/nkrapivin/libmulti/)
