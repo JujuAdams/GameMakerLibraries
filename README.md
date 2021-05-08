@@ -67,3 +67,29 @@
 [NekoPresence (Discord Rich Presence)](https://marketplace.yoyogames.com/assets/9526/nekopresence)
 
 [Snippet to Merge Functions](https://gist.github.com/evolutionleo/308655519b0abc0105275cde8c0ff015)
+
+[Room Data Inspector](https://github.com/heygleeson/TheRoomInspector)
+
+[Shampoo (GUI framework)](https://zackbanack.itch.io/shampoo)
+
+[Crispy (Unit Testing Framework)](https://github.com/bfrymire/crispy)
+
+[Another Unit Testing Framework](https://github.com/pmarincak/gms2-test)
+
+[GMEdit](https://github.com/GameMakerDiscord/GMEdit)
+
+[Advanced Macro Usage](https://nuxiigit.github.io/content/blog/post/gml+syntax+extensions.html)
+
+[ThunderTracker (Sprite Attachment Points)](https://waltruss.itch.io/thundertracker)
+
+[Building GameMaker Games from Commandline](https://www.patreon.com/posts/36556955)
+
+[GameMaker Native Cursors](https://yellowafterlife.itch.io/gamemaker-native-cursors)
+
+[GMExtensionPacker](https://github.com/DatZach/GMExtensionPacker)
+
+[LDtk Importer](https://shynif.itch.io/ldtk-to-gms)
+
+[Ultralight (HTML Renderer)](https://github.com/nommiin/ultralight-gm)
+
+[Three Mice In A Trenchcoat Source](https://github.com/XorDev/ThreeMiceInaTrenchcoat/wiki)
