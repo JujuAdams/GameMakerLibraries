@@ -8,7 +8,7 @@
 
 &nbsp;
 
-**If you'd like to add your work to this list, please make a pull request!**
+**If you'd like to add a link to this list, please make a pull request.**
 
 &nbsp;
 
