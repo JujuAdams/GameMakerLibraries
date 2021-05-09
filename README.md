@@ -96,6 +96,8 @@
 
 [LDtk Importer](https://shynif.itch.io/ldtk-to-gms)
 
+[LDtk Advanced Parser](https://github.com/evolutionleo/LDtkParser)
+
 [Ultralight (HTML Renderer)](https://github.com/nommiin/ultralight-gm)
 
 [Three Mice In A Trenchcoat Source](https://github.com/XorDev/ThreeMiceInaTrenchcoat/wiki)
@@ -115,3 +117,5 @@
 [JSONBabel (Translation)](https://comigo.itch.io/jsonbabel)
 
 [Multi-Window Games](https://github.com/nkrapivin/libmulti/)
+
+[NodeJS + GM Online Framework](https://github.com/evolutionleo/GM-Online-Framework)
