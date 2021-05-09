@@ -96,7 +96,7 @@
 
 [LDtk Importer](https://shynif.itch.io/ldtk-to-gms)
 
-[LDtk Advanced Parser](https://github.com/evolutionleo/LDtkParser)
+[LDtk Advanced Importer](https://github.com/evolutionleo/LDtkParser)
 
 [Ultralight (HTML Renderer)](https://github.com/nommiin/ultralight-gm)
 
