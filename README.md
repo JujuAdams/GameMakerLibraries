@@ -119,3 +119,9 @@
 [Multi-Window Games](https://github.com/nkrapivin/libmulti/)
 
 [NodeJS + GM Online Framework](https://github.com/evolutionleo/GM-Online-Framework)
+
+&nbsp;
+
+&nbsp;
+
+(Editor's note: we should copy https://tinytools.directory/ and/or https://notabug.org/Calinou/awesome-gamedev)
