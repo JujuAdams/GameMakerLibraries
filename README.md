@@ -124,4 +124,126 @@
 
 &nbsp;
 
+[Fast] https://github.com/Hyomoto/FAST
+
+[GMVerlet-Integration] https://github.com/tabularelf/GMVerlet-Integration
+
+[SnowState] https://github.com/sohomsahaun/SnowState
+
+[fuwafuwa] https://github.com/kemonologic/fuwafuwa
+
+[LWO - Light Weight Objects] https://github.com/tabularelf/lwo
+
+[StreamUI] https://github.com/OmegaX1000/StreamUI
+
+[BrainfuckGM] https://github.com/evolutionleo/BrainfuckGM
+
+[Polarca] https://github.com/VitorEstevam/polarca
+
+[LDtkParser] https://github.com/evolutionleo/LDtkParser
+
+[Room Editor Friendly WarpSystem] https://github.com/tabularelf/Room-Editor-Friendly-WarpSystem
+
+[Lexicon] https://github.com/tabularelf/lexicon
+
+[GmlCppExtFuncs] https://github.com/YAL-GameMaker-Tools/GmlCppExtFuncs
+
+[gm-i18n] https://github.com/CreativeHandOficial/gm-i18n
+
+[good-vibes] https://github.com/mrdaneeyul/good-vibes
+
+[UnityWayInGMS] https://github.com/WWWcool/UnityWayInGMS
+
+[Lots of Colours for GameMaker] https://dragonite.itch.io/lotsa-colors
+
+[DarkContract] https://github.com/Alprog/DarkContract
+
+[GMonitor] https://github.com/DatZach/GMonitor
+
+[pugIFF] https://github.com/nkrapivin/pugIFF
+
+[Sprite Atlas for GameMaker] https://dragonite.itch.io/sprite-atlas
+
+[Blend Mode Preview] https://dragonite.itch.io/blend-mode-preview
+
+[Drag and Drop Files Into GameMaker Games] https://dragonite.itch.io/drag-and-drop-files-into-gamemaker-games
+
+[Promise.gml] https://github.com/YAL-GameMaker/Promise.gml
+
+[Magpie] https://dragonite.itch.io/magpie-generic-inventory-for-gamemaker
+
+[Particle Systems] https://github.com/GamemakerCasts/particle-systems
+
+[phgen] https://github.com/squircledev/phgen
+
+[Cartoon Chickens - Cel Shading in GameMaker] https://dragonite.itch.io/cartoon-chickens
+
+[libLassebq] https://github.com/nkrapivin/libLassebq
+
+[GMKrypt] https://github.com/nkrapivin/GMKrypt
+
+[Danmaku Project - Bullet Hell Library] https://github.com/OmegaX1000/DanmakuProject
+
+[EventGML] https://github.com/Soves/EventGML
+
+[Crispy] https://github.com/bfrymire/crispy
+
+[The Room Inspector] https://github.com/heygleeson/GM-RoomInspector
+
+[GMESCAPI] https://marketplace.yoyogames.com/assets/9529/gmescapi
+
+[NekoPresence] https://marketplace.yoyogames.com/assets/9526/nekopresence
+
+[GMLocalize2] https://github.com/DragoniteSpam/GMLocalize2
+
+[Small Pentapop Localization tool] https://github.com/AntonBergaker/small_pp_localization_tool
+
+[Wavload] https://github.com/nkrapivin/wavload
+
+[Glance Outdated] https://github.com/Soves/Glance-outdated-
+
+[Lock And Key] https://github.com/AlubJ/Lock-And-Key
+
+[Luminous Chicken - 3D Lighting Shaders for GameMaker] https://dragonite.itch.io/luminous-chicken-3d-lighting-shaders-for-gamemaker
+
+[ArrayClass] https://github.com/GameMakerDiscord/ArrayClass
+
+[Bogosort for GameMaker] https://dragonite.itch.io/bogosort-for-gamemaker
+
+
+
+&nbsp;
+
+&nbsp;
+
+[Stack3d Guide] https://dev-dwarf.github.io/dwarfdev/tutorials/2021/01/24/Stack3D-Guide.html
+
+[On Slopes and Grids] https://forum.yoyogames.com/index.php?threads/on-slopes-and-grids-subpixel-perfect-topdown-movement-and-collision-line-without-objects.4073/
+
+[Regex] https://tonystr.net/a/regex
+
+[Circles] https://tonystr.net/a/circles
+
+[Vector2.gml] https://gist.github.com/FaultyFunctions/a81ad69046b3b3966b531cb592da6bac
+
+[draw_sprite_sliced.gml] https://gist.github.com/shdwcat/6e446830fe2d243953bed90e5f2fe7b7
+
+[array_2d] https://gist.github.com/tabularelf/ea7901007179d48ce2f61e6e2fe026da
+
+[InheritFunction.gml] https://gist.github.com/evolutionleo/308655519b0abc0105275cde8c0ff015
+
+[array_shuffle.gml] https://gist.github.com/heygleeson/bab8c68cbc27b216d92a5b596e2e23fa
+
+[game_restart_fixed.gml (old)] https://gist.github.com/tabularelf/0373fd8ff7363f5f14f71ae51410b46a
+
+[????] https://pastebin.com/kBh9s9nH
+
+[gms2_gamepad_db_composer] https://gist.github.com/offalynne/e0a887556e8120390fc86c944e6861bf#file-gms2_gamepad_db_composer-py
+
+[GMHandshake.cs] https://gist.github.com/nkrapivin/c73f5a962466a4ecb63187a009a300d8
+
+&nbsp;
+
+&nbsp;
+
 (Editor's note: we should copy https://tinytools.directory/ and/or https://notabug.org/Calinou/awesome-gamedev)
