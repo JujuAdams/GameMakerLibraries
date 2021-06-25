@@ -146,21 +146,21 @@
 
 [Lexicon](https://github.com/tabularelf/lexicon)
 
-[GmlCppExtFuncs]( )https://github.com/YAL-GameMaker-Tools/GmlCppExtFuncs)
+[GmlCppExtFuncs](https://github.com/YAL-GameMaker-Tools/GmlCppExtFuncs)
 
 [gm-i18n](https://github.com/CreativeHandOficial/gm-i18n)
 
-[good-vibes]( )https://github.com/mrdaneeyul/good-vibes)
+[good-vibes](https://github.com/mrdaneeyul/good-vibes)
 
-[UnityWayInGMS]( )https://github.com/WWWcool/UnityWayInGMS)
+[UnityWayInGMS](https://github.com/WWWcool/UnityWayInGMS)
 
-[Lots of Colours for GameMaker]( )https://dragonite.itch.io/lotsa-colors)
+[Lots of Colours for GameMaker](https://dragonite.itch.io/lotsa-colors)
 
-[DarkContract]( )https://github.com/Alprog/DarkContract)
+[DarkContract](https://github.com/Alprog/DarkContract)
 
-[GMonitor]( )https://github.com/DatZach/GMonitor)
+[GMonitor](https://github.com/DatZach/GMonitor)
 
-[pugIFF]( )https://github.com/nkrapivin/pugIFF)
+[pugIFF](https://github.com/nkrapivin/pugIFF)
 
 [Sprite Atlas for GameMaker](https://dragonite.itch.io/sprite-atlas)
 
