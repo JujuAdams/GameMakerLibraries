@@ -210,6 +210,8 @@
 
 [Bogosort for GameMaker](https://dragonite.itch.io/bogosort-for-gamemaker)
 
+[Various Extensions](https://samuel-venable.itch.io/gamemaker-extension-collection) including border toggle, dialog boxes, shell execution, file manager, WebM Player, file dropper etc.
+
 &nbsp;
 
 &nbsp;
