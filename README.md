@@ -236,7 +236,7 @@
 
 [game_restart_fixed.gml (old)](https://gist.github.com/tabularelf/0373fd8ff7363f5f14f71ae51410b46a)
 
-[????](https://pastebin.com/kBh9s9nH)
+[nik's "YoYo.h"](https://pastebin.com/kBh9s9nH)
 
 [gms2_gamepad_db_composer](https://gist.github.com/offalynne/e0a887556e8120390fc86c944e6861bf#file-gms2_gamepad_db_composer-py)
 
