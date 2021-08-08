@@ -58,8 +58,6 @@
 
 [Voronoi Pixels](https://github.com/XorDev/GMS-Voronoi-Pixels)
 
-[GMDoc Generator](https://github.com/kraifpatrik/gmdoc)
-
 [Xor's Shader Tutorials](https://xorshaders.weebly.com/)
 
 [Chunk Loading](https://github.com/tonystr/Reveen)
