@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://raw.githubusercontent.com/JujuAdams/GameMakerLibraries/main/libraries-schema.json",
+  "title": "GameMaker library data",
+  "description": "Data documenting GameMaker libraries, for use in generating READMEs etc.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of the entire listing"
+    },
+    "description":{
+      "type": "string",
+      "description": "Description of the entire listing"
+    },
+    "libraries": {
+      "type": "array",
+      "description": "List of libraries",
+      "items": {
+        "$ref": "#/definitions/library"
+      }
+    }
+  },
+  "definitions": {
+    "tag":{
+      "description": "A tag can be used to categorize libraries for filtering and sorting.",
+      "enum": [
+        "ui",
+        "community",
+        "text",
+        "pipeline",
+        "editor",
+        "shader",
+        "graphics",
+        "sprite",
+        "room",
+        "asset"
+      ]
+    },
+    "author":{
+      "description": "An author is a person or organization that has contributed to the library.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "website": {
+          "description": "The author home page.",
+          "type": "string",
+          "format": "uri"
+        },
+        "twitter": {
+          "description": "The author's Twitter handle.",
+          "type": "string",
+          "pattern": "^[A-Za-z0-9]{1,64}$"
+        },
+        "github": {
+          "description": "The author's GitHub username.",
+          "type": "string",
+          "pattern": "^[A-Za-z0-9]{1,64}$"
+        },
+        "affiliations":{
+          "description": "Companies, communities, or other significant entities the author is a member of.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "library": {
+      "title": "A GameMaker library",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title","url"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The title of the library"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the library"
+        },
+        "url":{
+          "type": "string",
+          "description": "URL of the library",
+          "format": "uri"
+        },
+        "githubUrl":{
+          "type": "string",
+          "description": "URL of the library's GitHub repository, if it has one.",
+          "format": "uri"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/tag"
+          }
+        },
+        "authors":{
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/author"
+          }
+        }
+      }
+    }
+  }
+}
