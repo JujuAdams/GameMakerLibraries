@@ -4,6 +4,8 @@
   "title": "GameMaker library data",
   "description": "Data documenting GameMaker libraries, for use in generating READMEs etc.",
   "type": "object",
+  "required": ["title","description","libraries"],
+  "additionalProperties": false,
   "properties": {
     "title": {
       "type": "string",
@@ -40,6 +42,7 @@
     "author":{
       "description": "An author is a person or organization that has contributed to the library.",
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "name": {
           "type": "string"

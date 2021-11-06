@@ -19,6 +19,8 @@
   "homepage": "https://github.com/JujuAdams/GameMakerLibraries#readme",
   "devDependencies": {
     "@types/node": "^16.11.6",
+    "ajv": "^8.6.3",
+    "json-schema-to-typescript": "^10.1.5",
     "yaml": "^1.10.2"
   }
 }
