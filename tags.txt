@@ -8,3 +8,4 @@ graphics
 sprite
 room
 asset
+test

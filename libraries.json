@@ -359,6 +359,24 @@
     {
       "title": "GMHandshake.cs",
       "url": "https://gist.github.com/nkrapivin/c73f5a962466a4ecb63187a009a300d8"
+    },
+    {
+      "title": "Stitch",
+      "url": "https://github.com/bscotch/stitch#readme",
+      "authors": ["adam-coster", "shi-chen"],
+      "compatibility": ["Studio 2.3"],
+      "githubUrl": "https://github.com/bscotch/stitch",
+      "description": "A Gamemaker Studio 2 Pipeline Development Kit. A CLI and Node.JS API for creating GMS2 pipelines. Includes cross-project imports, batch-creating/updating sprites and sounds, texture page management, and more.",
+      "tags": ["pipeline", "sprite"]
+    },
+    {
+      "title": "Olympus",
+      "url": "https://github.com/bscotch/olympus#readme",
+      "authors": ["shi-chen"],
+      "compatibility": ["Studio 2.3"],
+      "description": "A test GML test library enabling complex test management, including asynchronous and user-input testing.",
+      "githubUrl": "https://github.com/bscotch/olympus",
+      "tags": ["pipeline", "test"]
     }
   ],
   "authors": {
