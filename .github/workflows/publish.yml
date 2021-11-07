@@ -5,6 +5,7 @@
 # - Create a new commit with all of the compiled content.
 # - TODO: Publish to GitHub pages (once there is an HTML version of the content)
 
+
 name: Publish
 
 on:
@@ -31,13 +32,17 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14.x
-      - run: npm i
-      - run: npm run compile
-      # TODO: Add cleanup step to enforce formatting, so that collaborators don't have to worry about it
       - name: Prep GitHub with the actor's info
         run: git config user.email "${{github.event.pusher.email}}"; git config user.name "${{github.event.pusher.name}}";
-      - name: Commit all changes
-        run: git add -A; git commit -m "Auto-compiled"
-      - name: Push the new commit
-        run: git push origin main --follow-tags
+      - run: npm i
+      - run: npm run compile
+      
+      # We only want to progress if compiling created changes.
+      # GitHub Actions does not have an "early out" mechanism, so we need to use IF statements
+      - name: Store whether or not changes occurred in env.HAS_CHANGES
+        run: echo "HAS_CHANGES=git status --porcelain" >> $GITHUB_ENV"
+      - if: ${{ env.HAS_CHANGES }}
+        name: Commit and push changes
+        run: git add -A && git commit -m "Auto-compiled" && git push origin main --follow-tags
+        
       # TODO: Add step to publish to GitHub pages (once we have a site to build)
