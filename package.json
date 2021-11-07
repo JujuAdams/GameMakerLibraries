@@ -4,7 +4,8 @@
   "description": "A big ol' list of GameMaker libraries, extensions, tools etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node utility/compile.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,10 @@
   "devDependencies": {
     "@types/node": "^16.11.6",
     "ajv": "^8.6.3",
+    "ajv-formats": "^2.1.1",
     "common-tags": "^1.8.0",
     "json-schema-to-typescript": "^10.1.5",
+    "prettier": "^2.4.1",
     "yaml": "^1.10.2"
   }
 }

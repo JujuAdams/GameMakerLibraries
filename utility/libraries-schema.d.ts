@@ -19,6 +19,10 @@ export type Tag =
   | "sprite"
   | "text"
   | "ui";
+/**
+ * The version(s) of GameMaker this library is compatible with.
+ */
+export type GameMakerCompatibility = ("8" | "Studio" | "Studio 2" | "Studio 2.3")[];
 
 /**
  * Data documenting GameMaker libraries, for use in generating READMEs etc.
@@ -56,6 +60,7 @@ export interface AGameMakerLibrary {
   githubUrl?: string;
   tags?: Tag[];
   authors?: Author[];
+  compatibility?: GameMakerCompatibility;
 }
 /**
  * An author is a person or organization that has contributed to the library.

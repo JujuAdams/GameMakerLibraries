@@ -4,11 +4,7 @@
   "title": "GameMaker library data",
   "description": "Data documenting GameMaker libraries, for use in generating READMEs etc.",
   "type": "object",
-  "required": [
-    "title",
-    "description",
-    "libraries"
-  ],
+  "required": ["title", "description", "libraries"],
   "additionalProperties": false,
   "properties": {
     "title": {
@@ -22,9 +18,7 @@
     "libraries": {
       "type": "array",
       "description": "List of libraries",
-      "items": {
-        "$ref": "#/definitions/library"
-      }
+      "items": { "$ref": "#/definitions/library" }
     }
   },
   "definitions": {
@@ -48,9 +42,7 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "name": {
-          "type": "string"
-        },
+        "name": { "type": "string" },
         "website": {
           "description": "The author home page.",
           "type": "string",
@@ -69,9 +61,7 @@
         "affiliations": {
           "description": "Companies, communities, or other significant entities the author is a member of.",
           "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "items": { "type": "string" }
         }
       }
     },
@@ -79,10 +69,7 @@
       "title": "A GameMaker library",
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "title",
-        "url"
-      ],
+      "required": ["title", "url"],
       "properties": {
         "title": {
           "type": "string",
@@ -102,25 +89,16 @@
           "description": "URL of the library's GitHub repository, if it has one.",
           "format": "uri"
         },
-        "tags": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/tag"
-          }
-        },
+        "tags": { "type": "array", "items": { "$ref": "#/definitions/tag" } },
         "authors": {
           "type": "array",
-          "items": {
-            "$ref": "#/definitions/author"
-          }
+          "items": { "$ref": "#/definitions/author" }
         },
-        "compatibility":{
+        "compatibility": {
           "title": "GameMaker compatibility",
           "description": "The version(s) of GameMaker this library is compatible with.",
           "type": "array",
-          "items": {
-            "enum": ["8","Studio","Studio 2", "Studio 2.3"]
-          },
+          "items": { "enum": ["8", "Studio", "Studio 2", "Studio 2.3"] },
           "uniqueItems": true
         }
       }
