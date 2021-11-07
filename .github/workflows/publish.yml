@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+# Upon push to `main`, or merge from a pull request:
+# - Compile everything, aborting the merge if an error is thrown
+# - Create a new commit with all of the compiled content.
+# - TODO: Publish to GitHub pages (once there is an HTML version of the content)
+
+
+name: Publish
+
+on:
+  # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#push
+  push:
+    branches:
+      - main
+
+permissions:
+  pull-requests: read
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        shell: bash
+    
+    steps:
+      - name: Load source
+        uses: actions/checkout@v2
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - name: Prep GitHub with the actor's info
+        run: git config user.email "${{github.event.pusher.email}}"; git config user.name "${{github.event.pusher.name}}";
+      - run: npm i
+      - run: npm run compile
+      
+      # We only want to progress if compiling created changes.
+      # GitHub Actions does not have an "early out" mechanism, so we need to use IF statements
+      - name: Store whether or not changes occurred in env.HAS_CHANGES
+        run: echo "HAS_CHANGES=$(git status --porcelain)" >> $GITHUB_ENV
+      - if: ${{ env.HAS_CHANGES }}
+        name: Commit and push changes
+        run: git add -A && git commit -m "Auto-compiled" && git push origin main --follow-tags
+
+      # TODO: Add step to publish to GitHub pages (once we have a site to build)
