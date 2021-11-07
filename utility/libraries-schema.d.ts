@@ -9,16 +9,16 @@
  * A tag can be used to categorize libraries for filtering and sorting.
  */
 export type Tag =
-  | "ui"
+  | "asset"
   | "community"
-  | "text"
-  | "pipeline"
   | "editor"
-  | "shader"
   | "graphics"
-  | "sprite"
+  | "pipeline"
   | "room"
-  | "asset";
+  | "shader"
+  | "sprite"
+  | "text"
+  | "ui";
 
 /**
  * Data documenting GameMaker libraries, for use in generating READMEs etc.
@@ -27,16 +27,15 @@ export interface GameMakerLibraryData {
   /**
    * The title of the entire listing
    */
-  title?: string;
+  title: string;
   /**
    * Description of the entire listing
    */
-  description?: string;
+  description: string;
   /**
    * List of libraries
    */
-  libraries?: AGameMakerLibrary[];
-  [k: string]: unknown;
+  libraries: AGameMakerLibrary[];
 }
 export interface AGameMakerLibrary {
   /**
@@ -79,5 +78,4 @@ export interface Author {
    * Companies, communities, or other significant entities the author is a member of.
    */
   affiliations?: string[];
-  [k: string]: unknown;
 }

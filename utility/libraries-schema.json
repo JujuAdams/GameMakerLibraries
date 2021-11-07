@@ -4,14 +4,18 @@
   "title": "GameMaker library data",
   "description": "Data documenting GameMaker libraries, for use in generating READMEs etc.",
   "type": "object",
-  "required": ["title","description","libraries"],
+  "required": [
+    "title",
+    "description",
+    "libraries"
+  ],
   "additionalProperties": false,
   "properties": {
     "title": {
       "type": "string",
       "description": "The title of the entire listing"
     },
-    "description":{
+    "description": {
       "type": "string",
       "description": "Description of the entire listing"
     },
@@ -24,22 +28,22 @@
     }
   },
   "definitions": {
-    "tag":{
+    "tag": {
       "description": "A tag can be used to categorize libraries for filtering and sorting.",
       "enum": [
-        "ui",
+        "asset",
         "community",
-        "text",
-        "pipeline",
         "editor",
-        "shader",
         "graphics",
-        "sprite",
+        "pipeline",
         "room",
-        "asset"
+        "shader",
+        "sprite",
+        "text",
+        "ui"
       ]
     },
-    "author":{
+    "author": {
       "description": "An author is a person or organization that has contributed to the library.",
       "type": "object",
       "additionalProperties": false,
@@ -62,7 +66,7 @@
           "type": "string",
           "pattern": "^[A-Za-z0-9]{1,64}$"
         },
-        "affiliations":{
+        "affiliations": {
           "description": "Companies, communities, or other significant entities the author is a member of.",
           "type": "array",
           "items": {
@@ -75,7 +79,10 @@
       "title": "A GameMaker library",
       "type": "object",
       "additionalProperties": false,
-      "required": ["title","url"],
+      "required": [
+        "title",
+        "url"
+      ],
       "properties": {
         "title": {
           "type": "string",
@@ -85,12 +92,12 @@
           "type": "string",
           "description": "Description of the library"
         },
-        "url":{
+        "url": {
           "type": "string",
           "description": "URL of the library",
           "format": "uri"
         },
-        "githubUrl":{
+        "githubUrl": {
           "type": "string",
           "description": "URL of the library's GitHub repository, if it has one.",
           "format": "uri"
@@ -101,11 +108,20 @@
             "$ref": "#/definitions/tag"
           }
         },
-        "authors":{
+        "authors": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/author"
           }
+        },
+        "compatibility":{
+          "title": "GameMaker compatibility",
+          "description": "The version(s) of GameMaker this library is compatible with.",
+          "type": "array",
+          "items": {
+            "enum": ["8","Studio","Studio 2", "Studio 2.3"]
+          },
+          "uniqueItems": true
         }
       }
     }

@@ -24,3 +24,14 @@ exports.readYAML = function readYAML(file) {
 exports.writeYAML = function writeYAML(file, data) {
   fs.writeFileSync(file, yaml.stringify(data));
 };
+
+/**
+ * @param {any} condition
+ * @param {string} message
+ * @returns {asserts condition}
+ */
+exports.assert = function assert(condition, message) {
+  if (!condition) {
+    throw new Error(message);
+  }
+};
