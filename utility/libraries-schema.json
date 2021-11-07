@@ -4,23 +4,23 @@
   "title": "GameMaker library data",
   "description": "Data documenting GameMaker libraries, for use in generating READMEs etc.",
   "type": "object",
-  "required": ["title", "description", "libraries"],
+  "required": ["title", "description", "libraries", "authors"],
   "additionalProperties": false,
   "properties": {
     "title": {
       "type": "string",
-      "description": "The title of the entire listing"
+      "description": "The title of the entire listing, used for page titles"
     },
     "description": {
       "type": "string",
-      "description": "Description of the entire listing"
+      "description": "Description of the entire listing, used for page summaries"
     },
     "authors": {
       "title": "Library Authors",
-      "description": "Some authors have multiple libraries, so this section allows for re-use of author info. Authors can be directly added to a library, or they can be added here with a unique `name` value and then that name can be used in the library description.",
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/author"
+      "description": "Some authors have multiple libraries, so this section allows for re-use of author info. Authors can be directly added to a library, or they can be added here by a unique key, and that key can be used in a Library object.",
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9-_.]{2,64}$": { "$ref": "#/definitions/author" }
       }
     },
     "libraries": {

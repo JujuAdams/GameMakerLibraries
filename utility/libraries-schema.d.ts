@@ -5,6 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+export type TwitterHandle = string;
 /**
  * A tag can be used to categorize libraries for filtering and sorting.
  */
@@ -20,6 +21,10 @@ export type Tag =
   | "text"
   | "ui";
 /**
+ * You can re-use an author listed in the root authors map by providing the unique key.
+ */
+export type AuthorKey = string;
+/**
  * The version(s) of GameMaker this library is compatible with.
  */
 export type GameMakerCompatibility = ("8" | "Studio" | "Studio 2" | "Studio 2.3")[];
@@ -29,17 +34,46 @@ export type GameMakerCompatibility = ("8" | "Studio" | "Studio 2" | "Studio 2.3"
  */
 export interface GameMakerLibraryData {
   /**
-   * The title of the entire listing
+   * The title of the entire listing, used for page titles
    */
   title: string;
   /**
-   * Description of the entire listing
+   * Description of the entire listing, used for page summaries
    */
   description: string;
+  authors: LibraryAuthors;
   /**
    * List of libraries
    */
   libraries: AGameMakerLibrary[];
+}
+/**
+ * Some authors have multiple libraries, so this section allows for re-use of author info. Authors can be directly added to a library, or they can be added here by a unique key, and that key can be used in a Library object.
+ */
+export interface LibraryAuthors {
+  [k: string]: Author;
+}
+/**
+ * An author is a person or organization that has contributed to the library.
+ *
+ * This interface was referenced by `LibraryAuthors`'s JSON-Schema definition
+ * via the `patternProperty` "^[a-zA-Z0-9-_.]{2,64}$".
+ */
+export interface Author {
+  name?: string;
+  /**
+   * The author home page.
+   */
+  website?: string;
+  twitter?: TwitterHandle;
+  /**
+   * GitHub username
+   */
+  github?: string;
+  /**
+   * Companies, communities, or other significant entities the author is a member of.
+   */
+  affiliations?: string[];
 }
 export interface AGameMakerLibrary {
   /**
@@ -59,28 +93,6 @@ export interface AGameMakerLibrary {
    */
   githubUrl?: string;
   tags?: Tag[];
-  authors?: Author[];
+  authors?: (Author | AuthorKey)[];
   compatibility?: GameMakerCompatibility;
-}
-/**
- * An author is a person or organization that has contributed to the library.
- */
-export interface Author {
-  name?: string;
-  /**
-   * The author home page.
-   */
-  website?: string;
-  /**
-   * The author's Twitter handle.
-   */
-  twitter?: string;
-  /**
-   * The author's GitHub username.
-   */
-  github?: string;
-  /**
-   * Companies, communities, or other significant entities the author is a member of.
-   */
-  affiliations?: string[];
 }

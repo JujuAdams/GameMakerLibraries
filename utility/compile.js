@@ -6,7 +6,7 @@ const fs = require('fs');
 const { compileFromFile } = require('json-schema-to-typescript');
 const { stripIndent } = require('common-tags');
 const prettier = require('prettier');
-const { unique, readJSON } = require('./utility.js');
+const { unique, readJSON, assert } = require('./utility.js');
 const Ajv = require('ajv').default;
 const addFormats = require('ajv-formats').default;
 
@@ -116,6 +116,17 @@ function loadAndUpdateLibraries(validate) {
     console.error(validate.errors);
     process.exit(1);
   }
+  // Check author refs to make sure they all exist
+  libraries.libraries.forEach((library) => {
+    library.authors?.forEach((author) => {
+      if (typeof author == 'string') {
+        const referencedAuthor = libraries.authors[author];
+        // @ts-ignore
+        assert(referencedAuthor, `Author key "${author}" not found.`);
+      }
+    });
+  });
+
   // Prettify
   fs.writeFileSync(
     librariesPath,
