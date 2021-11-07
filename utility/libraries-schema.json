@@ -15,6 +15,14 @@
       "type": "string",
       "description": "Description of the entire listing"
     },
+    "authors": {
+      "title": "Library Authors",
+      "description": "Some authors have multiple libraries, so this section allows for re-use of author info. Authors can be directly added to a library, or they can be added here with a unique `name` value and then that name can be used in the library description.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/author"
+      }
+    },
     "libraries": {
       "type": "array",
       "description": "List of libraries",
@@ -49,14 +57,15 @@
           "format": "uri"
         },
         "twitter": {
-          "description": "The author's Twitter handle.",
+          "title": "Twitter handle",
           "type": "string",
-          "pattern": "^[A-Za-z0-9]{1,64}$"
+          "pattern": "^[A-Za-z0-9_]{4,15}$"
         },
         "github": {
-          "description": "The author's GitHub username.",
+          "description": "GitHub username",
           "type": "string",
-          "pattern": "^[A-Za-z0-9]{1,64}$"
+          "$comment": "The pattern is from https://github.com/shinnn/github-username-regex",
+          "pattern": "^[a-z\\d](?:[a-z\\d]|-(?=[a-z\\d])){0,38}$"
         },
         "affiliations": {
           "description": "Companies, communities, or other significant entities the author is a member of.",
@@ -92,7 +101,16 @@
         "tags": { "type": "array", "items": { "$ref": "#/definitions/tag" } },
         "authors": {
           "type": "array",
-          "items": { "$ref": "#/definitions/author" }
+          "items": {
+            "oneOf": [
+              { "$ref": "#/definitions/author" },
+              {
+                "title": "Author key",
+                "description": "You can re-use an author listed in the root authors map by providing the unique key.",
+                "type": "string"
+              }
+            ]
+          }
         },
         "compatibility": {
           "title": "GameMaker compatibility",

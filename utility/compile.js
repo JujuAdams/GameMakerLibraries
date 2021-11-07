@@ -6,12 +6,12 @@ const fs = require('fs');
 const { compileFromFile } = require('json-schema-to-typescript');
 const { stripIndent } = require('common-tags');
 const prettier = require('prettier');
-const { unique, readJSON, writeJSON, readYAML } = require('./utility.js');
+const { unique, readJSON } = require('./utility.js');
 const Ajv = require('ajv').default;
 const addFormats = require('ajv-formats').default;
 
 const readmePath = './README.md';
-const librariesPath = './libraries.yaml';
+const librariesPath = './libraries.json';
 const librariesSchemaPath = './utility/libraries-schema.json';
 const librariesTypesPath = './utility/libraries-schema.d.ts';
 const tagsPath = './tags.txt';
@@ -107,21 +107,26 @@ function compileReadme(libraries) {
  *
  * @param { Awaited<ReturnType<typeof loadAndUpdateValidator>>} validate
  */
-function loadLibraries(validate) {
+function loadAndUpdateLibraries(validate) {
   // Load the library data and test it against the schema
   /** @type {Libraries} */
-  const libraries = readYAML(librariesPath);
+  const libraries = readJSON(librariesPath);
   const isValid = validate(libraries);
   if (!isValid) {
     console.error(validate.errors);
     process.exit(1);
   }
+  // Prettify
+  fs.writeFileSync(
+    librariesPath,
+    prettier.format(JSON.stringify(libraries), { parser: 'json' })
+  );
   return libraries;
 }
 
 async function main() {
   const validate = await loadAndUpdateValidator();
-  const libraries = loadLibraries(validate);
+  const libraries = loadAndUpdateLibraries(validate);
   compileReadme(libraries);
 }
 

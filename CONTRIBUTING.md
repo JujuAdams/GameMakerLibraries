@@ -8,9 +8,11 @@ You can compile your changes to make sure now errors get thrown, by running `npm
 
 ## Add a new library
 
-Open up `./libraries.yaml` and plug your new library right in!
+Open up `./libraries.json` and plug your new library right in!
 
-Libraries are documented in YAML format, but you can look at neighboring library data to see what that looks like. There are optional fields that you can add that you might not see in other library's YAML info. To find these, use an IDE like VSCode to get hints and auto-completion.
+Libraries are documented in JSON format, but you can look at neighboring library data to see what that looks like. There are optional fields that you can add that you might not see in other library's JSON info.
+
+If you use VS Code to edit, you'll get auto-completion support when adding and editing data to the JSON file!
 
 ## Add a new tag
 
@@ -18,11 +20,11 @@ Tags are for categorizing libraries so that they can be more easily search, filt
 
 Open up `./tags.txt` and plop your new tag right at the end of the file.
 
-Note that tags will be forced to kebab-case to ensure consistency, and any tag you add should also be put on at least two libraries in the `./libraries.yaml` file via the `tags` field.
+Note that tags will be forced to kebab-case to ensure consistency, and any tag you add should also be put on at least two libraries in the `./libraries.json` file via the `tags` field.
 
 ## Add completely new fields
 
-To ensure that the library data is consistent, the format is dictated by the [JSON Schema](https://json-schema.org/) file `./utility/libraries-schema.json`. That file is the source of truth for the library data, and is used to validate the `libraries.yaml` file as well as to generate Typescript types to make it easier to write code to manage this project.
+To ensure that the library data is consistent, the format is dictated by the [JSON Schema](https://json-schema.org/) file `./utility/libraries-schema.json`. That file is the source of truth for the library data, and is used to validate the `libraries.json` file as well as to generate Typescript types to make it easier to write code to manage this project.
 
 If you want to make new fields available to library data, you'll need to update the Schema. If you make edits in VSCode you'll get some IDE support for possible fields. Otherwise the current Schema contains examples of the kinds of things you'd likely want to do, so you won't need to become a JSON Schema expert to update it.
 
