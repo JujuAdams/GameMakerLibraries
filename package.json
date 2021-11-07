@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "node utility/compile.js"
+    "compile": "node utility/compile.js",
+    "preversion": "echo \"Versioning logic not implemented\" && exit 1"
   },
   "repository": {
     "type": "git",
