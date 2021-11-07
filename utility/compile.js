@@ -81,8 +81,7 @@ function compileReadme(libraries) {
     <p align="center">${libraries.description}</p>
 
     <p align="center">
-      Come chat about GameMaker on
-      <a href="https://discord.gg/8krYCqr">Juju's Discord server</a>
+      Come chat about GameMaker on the <a href="https://discord.gg/8krYCqr">Discord server</a>
     </p>`);
 
   let markdownComponents = [
