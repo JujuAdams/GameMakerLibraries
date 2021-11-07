@@ -235,3 +235,7 @@ see the [Contributing Guide](./CONTRIBUTING.md).
 [gms2_gamepad_db_composer](https://gist.github.com/offalynne/e0a887556e8120390fc86c944e6861bf#file-gms2_gamepad_db_composer-py)
 
 [GMHandshake.cs](https://gist.github.com/nkrapivin/c73f5a962466a4ecb63187a009a300d8)
+
+[Stitch](https://github.com/bscotch/stitch#readme)
+
+[Olympus](https://github.com/bscotch/olympus#readme)

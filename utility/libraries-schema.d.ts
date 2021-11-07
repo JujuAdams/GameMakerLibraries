@@ -18,6 +18,7 @@ export type Tag =
   | "room"
   | "shader"
   | "sprite"
+  | "test"
   | "text"
   | "ui";
 /**
