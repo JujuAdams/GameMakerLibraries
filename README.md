@@ -2,7 +2,7 @@
 
 <p align="center">A big ol' list of GameMaker libraries, extensions, tools etc.</p>
 
-<p align="center">Come chat about GameMaker on <a href="https://discord.gg/8krYCqr">Juju's Discord server</a></p>
+<p align="center">Come chat about GameMaker on the <a href="https://discord.gg/8krYCqr">Discord server</a></p>
 
 &nbsp;
 
