@@ -40,7 +40,7 @@ jobs:
       # We only want to progress if compiling created changes.
       # GitHub Actions does not have an "early out" mechanism, so we need to use IF statements
       - name: Store whether or not changes occurred in env.HAS_CHANGES
-        run: echo "HAS_CHANGES=git status --porcelain" >> $GITHUB_ENV
+        run: echo "HAS_CHANGES=$(git status --porcelain)" >> $GITHUB_ENV
       - if: ${{ env.HAS_CHANGES }}
         name: Commit and push changes
         run: git add -A && git commit -m "Auto-compiled" && git push origin main --follow-tags
