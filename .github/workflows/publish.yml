@@ -41,7 +41,7 @@ jobs:
       # GitHub Actions does not have an "early out" mechanism, so we need to use IF statements
       - id: changes
         name: Store whether or not changes occurred
-        run: echo '::set-output name=HAS_CHANGES::$(git status --porcelain)'
+        run: echo "::set-output name=HAS_CHANGES::$(git status --porcelain)"
       - if: ${{ steps.changes.outputs.HAS_CHANGES }}
         name: Commit and push changes
         run: git add -A && git commit -m "Auto-compiled" && git push origin main --follow-tags
