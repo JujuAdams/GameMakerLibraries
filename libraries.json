@@ -4,27 +4,60 @@
   "libraries": [
     {
       "title": "Fix GML being recognised as Yacc on GitHub",
-      "url": "https://www.reddit.com/r/gamemaker/comments/n5m35l/a_simple_fix_for_github_incorrectly_detecting/"
+      "url": "https://www.reddit.com/r/gamemaker/comments/n5m35l/a_simple_fix_for_github_incorrectly_detecting/",
+      "description": "A simple fix for GitHub incorrectly detecting GMS-generated files as non-GML languages.",
+      "tags": ["pipeline", "technical"]
     },
-    { "title": "GMLScripts.com", "url": "https://www.gmlscripts.com/" },
     {
-      "title": "GM Core (Buncha libraries rolled into one)",
-      "url": "https://github.com/gm-core"
+	  "title": "GMLScripts.com",
+	  "url": "https://www.gmlscripts.com/" },
+      "description": "The premier GML scripts repository. Covers everything from data structures, to geometry, to AI.",
+      "githubUrl": "https://github.com/gmlscripts/scripts",
+      "tags": ["community", "compilation"]
+    {
+      "title": "GM Core",
+      "url": "https://github.com/gm-core",
+      "authors": ["twisterghost"],
+      "compatibility": ["Studio 2.3"],
+      "githubUrl": "https://github.com/gm-core",
+      "description": "Foundational utilities for every GameMaker Studio 2.3 project.",
+      "tags": ["compilation"]
     },
     {
       "title": "Gleb Tsereteli's GameMaker 2.3 Resources",
-      "url": "https://docs.google.com/document/d/1wUm8FZPm8AKLZgC-P76TPJAMXs0EN2s5mJGvvUFwycw"
+      "url": "https://docs.google.com/document/d/1wUm8FZPm8AKLZgC-P76TPJAMXs0EN2s5mJGvvUFwycw",
+      "authors": ["gleb-tsereteli"],
+      "compatibility": ["Studio 2.3"],
+      "description": "Large Google Doc containing lots of GMS2.3 resources of a variety of types.",
+      "tags": ["compilation"]
     },
     {
       "title": "GMS2.3 Destructors",
-      "url": "https://github.com/DatZach/Destructors"
+      "url": "https://github.com/DatZach/Destructors",
+      "authors": ["datzach", "juju", "nommiin"],
+      "compatibility": ["Studio 2.3"],
+      "description": "Add destructor functions to structs, and allows for safer memory management of data structures.",
+      "githubUrl": "https://github.com/DatZach/Destructors",
+      "tags": ["technical"]
     },
-    { "title": "Community Wiki", "url": "https://gmcw.dev/" },
     {
       "title": "RenderDoc for GameMaker",
-      "url": "https://github.com/Blokatt/renderdoc-gms2-kit"
+      "url": "https://github.com/odditica/renderdoc-gms2-kit",
+	  "authors": ["odditica"],
+	  "compatibility": ["Studio 2", "Studio 2.3"],
+	  "description": "A RenderDoc settings file generator for GameMaker: Studio 2 projects.",
+	  "githubUrl": "https://github.com/odditica/renderdoc-gms2-kit",
+	  "tags": ["pipeline", "graphics"]
     },
-    { "title": "Emu UI", "url": "https://github.com/DragoniteSpam/Emu" },
+    {
+	  "title": "Emu UI",
+	  "url": "https://github.com/DragoniteSpam/Emu",
+	  "authors": ["dragonitespam"],
+	  "compatibility": ["Studio 2.3"],
+	  "description": "Robust UI framework for GameMaker. Looks like Windows Forms. Primarily aimed at software but you can use it for games too.",
+	  "githubUrl": "https://github.com/DragoniteSpam/Emu",
+	  "tags": ["ui"]
+	},
     {
       "title": "Bronze Box -  3d world models from a 2d grid",
       "url": "https://github.com/cicadian/Bronze-Box"
@@ -392,6 +425,51 @@
       "affiliations": ["Butterscotch Shenanigans"],
       "github": "shichen85",
       "website": "https://bscotch.net/about#shi-chen"
-    }
+    },
+	"twisterghost": {
+	  "name": "Michael Barrett",
+	  "github": "twisterghost",
+	  "website": "https://mjb.im/"
+	},
+	"gleb-tsereteli": {
+	  "name": "Gleb Tsereteli",
+      "affiliations": ["Gutpunch Studios"],
+	  "github": "glebpunch",
+      "twitter": "glebtsereteli",
+	  "website": "https://gutpunchstudios.com/"
+	},
+	"datzach": {
+	  "name": "Zach Reedy",
+      "affiliations": ["YoYo Games"],
+	  "github": "DatZach",
+      "twitter": "DatZach",
+	  "website": "http://zreedy.com/"
+	},
+	"juju": {
+	  "name": "Juju Adams",
+	  "github": "jujuadams",
+      "twitter": "jujuadams",
+	  "website": "https://www.jujuadams.com/"
+	},
+	"nommiin": {
+	  "name": "Torin Freimiller",
+      "affiliations": ["Innersloth"],
+	  "github": "nommiin",
+      "twitter": "Nommiin",
+	  "website": "https://nomm.dev/"
+	},
+	"odditica": {
+	  "name": "Jan Vorisek",
+      "affiliations": ["SCS Software"],
+	  "github": "odditica",
+      "twitter": "odditica",
+	  "website": "https://odditica.fyi/"
+	},
+	"dragonitespam": {
+	  "name": "Michael",
+	  "github": "DragoniteSpam",
+      "twitter": "DragoniteSpam",
+	  "website": "https://www.youtube.com/c/DragoniteSpam/about"
+	}
   }
 }

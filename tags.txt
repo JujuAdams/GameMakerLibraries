@@ -5,7 +5,10 @@ pipeline
 editor
 shader
 graphics
+particles
 sprite
 room
 asset
 test
+technical
+compilation
