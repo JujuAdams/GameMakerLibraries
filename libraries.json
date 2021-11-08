@@ -391,8 +391,7 @@
       "url": "https://github.com/Mtax-Development/GMS2_RPC",
       "githubUrl": "https://github.com/Mtax-Development/GMS2_RPC",
       "description": "Discord Rich Presence Module for GameMaker Studio 2 IDE.",
-      "authors": ["Mtax"],
-      "tags": ["application"]
+      "authors": ["Mtax"]
     }
   ],
   "authors": {
