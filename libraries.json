@@ -34,7 +34,7 @@
     {
       "title": "GMS2.3 Destructors",
       "url": "https://github.com/DatZach/Destructors",
-      "authors": ["datzach", "juju", "nommiin"],
+      "authors": ["datzach", "juju-adams", "nommiin"],
       "compatibility": ["Studio 2.3"],
       "description": "Add destructor functions to structs, and allows for safer memory management of data structures.",
       "githubUrl": "https://github.com/DatZach/Destructors",
@@ -445,7 +445,7 @@
       "twitter": "DatZach",
 	  "website": "http://zreedy.com/"
 	},
-	"juju": {
+	"juju-adams": {
 	  "name": "Juju Adams",
 	  "github": "jujuadams",
       "twitter": "jujuadams",
