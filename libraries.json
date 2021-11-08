@@ -383,6 +383,7 @@
       "url": "https://github.com/Mtax-Development/GML-OOP",
       "githubUrl": "https://github.com/Mtax-Development/GML-OOP",
       "compatibility": ["Studio 2.3"],
+      "authors": ["Mtax"],
       "description": "Library for operating the primary functionalities of GameMaker Studio 2 through a set of constructors."
     },
     {
@@ -390,7 +391,8 @@
       "url": "https://github.com/Mtax-Development/GMS2_RPC",
       "githubUrl": "https://github.com/Mtax-Development/GMS2_RPC",
       "description": "Discord Rich Presence Module for GameMaker Studio 2 IDE.",
-      "tags": ["application"]
+      "authors": ["Mtax"],
+      "tags": ["miscellaneous"]
     }
   ],
   "authors": {
@@ -406,6 +408,12 @@
       "affiliations": ["Butterscotch Shenanigans"],
       "github": "shichen85",
       "website": "https://bscotch.net/about#shi-chen"
+    },
+    "Mtax":
+    {
+      "name": "Mtax",
+      "github": "Mtax-Development",
+      "discord": "Mtax#9787"
     }
   }
 }

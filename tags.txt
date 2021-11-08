@@ -9,4 +9,4 @@ sprite
 room
 asset
 test
-application
+miscellaneous
