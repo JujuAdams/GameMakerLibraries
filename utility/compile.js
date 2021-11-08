@@ -29,7 +29,7 @@ async function loadAndUpdateValidator() {
     fs
       .readFileSync(tagsPath, 'utf8')
       .trim()
-      .split('\n')
+      .split('/\r?\n/')
       .filter((x) => x)
       .sort()
   );
