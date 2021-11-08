@@ -68,12 +68,12 @@
           "$comment": "The pattern is from https://github.com/shinnn/github-username-regex",
           "pattern": "^[a-z\\d](?:[a-z\\d]|-(?=[a-z\\d])){0,38}$"
         },
-		"discord": {
-		  "description": "Discord username",
-		  "type": "string",
-		  "$comment": "The pattern is from https://ihateregex.io/expr/discord-username/",
-		  "pattern": "^.{3,32}#[0-9]{4}$"
-		},
+        "discord": {
+          "description": "Discord username",
+          "type": "string",
+          "$comment": "The pattern is from https://ihateregex.io/expr/discord-username/",
+          "pattern": "^.{3,32}#[0-9]{4}$"
+        },
         "affiliations": {
           "description": "Companies, communities, or other significant entities the author is a member of.",
           "type": "array",
