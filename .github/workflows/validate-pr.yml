@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+# Upon Pull Request, run `npm run compile` to see if any errors are thrown.
+# If there is an error, the PR will be automatically marked as failed.
+# If there is no error, the PR will be automatically marked as having passed checks.
+# (Passing the checks doesn't guarantee that you want to merge, just that nothing
+#  is obviously broken. It's still a very good idea to review the changes.)
+
+name: Validate Pull Request
+
+on:
+  # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#pull_request
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+
+permissions:
+  pull-requests: read
+  contents: read
+
+jobs:
+  validate-pr:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Load source
+        uses: actions/checkout@v2
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - run: npm i
+      - run: npm run compile

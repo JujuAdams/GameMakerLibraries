@@ -1,0 +1,30 @@
+{
+  "name": "game-maker-libraries",
+  "version": "1.0.0",
+  "description": "A big ol' list of GameMaker libraries, extensions, tools etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node utility/compile.js",
+    "preversion": "echo \"Versioning logic not implemented\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JujuAdams/GameMakerLibraries"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JujuAdams/GameMakerLibraries/issues"
+  },
+  "homepage": "https://github.com/JujuAdams/GameMakerLibraries#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "ajv": "^8.6.3",
+    "ajv-formats": "^2.1.1",
+    "common-tags": "^1.8.0",
+    "json-schema-to-typescript": "^10.1.5",
+    "prettier": "^2.4.1"
+  }
+}

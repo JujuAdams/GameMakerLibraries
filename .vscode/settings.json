@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["libraries.json"],
+      "url": "./utility/libraries-schema.json"
+    }
+  ],
+  "[yaml]": {
+    "editor.tabSize": 2,
+    "editor.codeLens": true
+  }
+}
