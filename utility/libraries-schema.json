@@ -66,7 +66,7 @@
           "description": "GitHub username",
           "type": "string",
           "$comment": "The pattern is from https://github.com/shinnn/github-username-regex",
-          "pattern": "^[a-z\\d](?:[a-z\\d]|-(?=[a-z\\d])){0,38}$"
+          "pattern": "^[A-Za-z\\d](?:[A-Za-z\\d]|-(?=[A-Za-z\\d])){0,38}$"
         },
         "discord": {
           "description": "Discord username",
