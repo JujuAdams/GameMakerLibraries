@@ -239,3 +239,7 @@ see the [Contributing Guide](./CONTRIBUTING.md).
 [Stitch](https://github.com/bscotch/stitch#readme)
 
 [Olympus](https://github.com/bscotch/olympus#readme)
+
+[GML-OOP](https://github.com/Mtax-Development/GML-OOP)
+
+[GMS2_RPC](https://github.com/Mtax-Development/GMS2_RPC)

@@ -14,6 +14,7 @@ export type Tag =
   | "community"
   | "editor"
   | "graphics"
+  | "miscellaneous"
   | "pipeline"
   | "room"
   | "shader"
