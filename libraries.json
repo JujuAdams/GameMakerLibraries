@@ -6,58 +6,65 @@
       "title": "Fix GML being recognised as Yacc on GitHub",
       "url": "https://www.reddit.com/r/gamemaker/comments/n5m35l/a_simple_fix_for_github_incorrectly_detecting/",
       "description": "A simple fix for GitHub incorrectly detecting GMS-generated files as non-GML languages.",
-      "tags": ["pipeline", "technical"]
+      "tags": [ "pipeline", "technical" ]
     },
     {
-	  "title": "GMLScripts.com",
-	  "url": "https://www.gmlscripts.com/" },
-      "description": "The premier GML scripts repository. Covers everything from data structures, to geometry, to AI.",
-      "githubUrl": "https://github.com/gmlscripts/scripts",
-      "tags": ["community", "compilation"]
+      "title": "GMLScripts.com",
+      "url": "https://www.gmlscripts.com/"
+    },
+    "description",
+    :,
+    "The premier GML scripts repository. Covers everything from data structures, to geometry, to AI.",
+    "githubUrl",
+    :,
+    "https://github.com/gmlscripts/scripts",
+    "tags",
+    :,
+    [ "community", "compilation" ],
     {
       "title": "GM Core",
       "url": "https://github.com/gm-core",
-      "authors": ["twisterghost"],
-      "compatibility": ["Studio 2.3"],
+      "authors": [ "twisterghost" ],
+      "compatibility": [ "Studio 2.3" ],
       "githubUrl": "https://github.com/gm-core",
       "description": "Foundational utilities for every GameMaker Studio 2.3 project.",
-      "tags": ["compilation"]
+      "tags": [ "compilation" ]
     },
     {
       "title": "Gleb Tsereteli's GameMaker 2.3 Resources",
       "url": "https://docs.google.com/document/d/1wUm8FZPm8AKLZgC-P76TPJAMXs0EN2s5mJGvvUFwycw",
-      "authors": ["gleb-tsereteli"],
-      "compatibility": ["Studio 2.3"],
+      "authors": [ "gleb-tsereteli" ],
+      "compatibility": [ "Studio 2.3" ],
       "description": "Large Google Doc containing lots of GMS2.3 resources of a variety of types.",
-      "tags": ["compilation"]
+      "tags": [ "compilation" ]
     },
     {
       "title": "GMS2.3 Destructors",
       "url": "https://github.com/DatZach/Destructors",
-      "authors": ["datzach", "juju-adams", "nommiin"],
-      "compatibility": ["Studio 2.3"],
+      "authors": [ "datzach", "juju-adams", "nommiin" ],
+      "compatibility": [ "Studio 2.3" ],
       "description": "Add destructor functions to structs, and allows for safer memory management of data structures.",
       "githubUrl": "https://github.com/DatZach/Destructors",
-      "tags": ["technical"]
+      "tags": [ "technical" ]
     },
     {
       "title": "RenderDoc for GameMaker",
       "url": "https://github.com/odditica/renderdoc-gms2-kit",
-	  "authors": ["odditica"],
-	  "compatibility": ["Studio 2", "Studio 2.3"],
-	  "description": "A RenderDoc settings file generator for GameMaker: Studio 2 projects.",
-	  "githubUrl": "https://github.com/odditica/renderdoc-gms2-kit",
-	  "tags": ["pipeline", "graphics"]
+      "authors": [ "odditica" ],
+      "compatibility": [ "Studio 2", "Studio 2.3" ],
+      "description": "A RenderDoc settings file generator for GameMaker: Studio 2 projects.",
+      "githubUrl": "https://github.com/odditica/renderdoc-gms2-kit",
+      "tags": [ "pipeline", "graphics" ]
     },
     {
-	  "title": "Emu UI",
-	  "url": "https://github.com/DragoniteSpam/Emu",
-	  "authors": ["dragonitespam"],
-	  "compatibility": ["Studio 2.3"],
-	  "description": "Robust UI framework for GameMaker. Looks like Windows Forms. Primarily aimed at software but you can use it for games too.",
-	  "githubUrl": "https://github.com/DragoniteSpam/Emu",
-	  "tags": ["ui"]
-	},
+      "title": "Emu UI",
+      "url": "https://github.com/DragoniteSpam/Emu",
+      "authors": [ "dragonitespam" ],
+      "compatibility": [ "Studio 2.3" ],
+      "description": "Robust UI framework for GameMaker. Looks like Windows Forms. Primarily aimed at software but you can use it for games too.",
+      "githubUrl": "https://github.com/DragoniteSpam/Emu",
+      "tags": [ "ui" ]
+    },
     {
       "title": "Bronze Box -  3d world models from a 2d grid",
       "url": "https://github.com/cicadian/Bronze-Box"
@@ -82,7 +89,10 @@
       "title": "SnowState (State Machine)",
       "url": "https://github.com/sohomsahaun/SnowState"
     },
-    { "title": "YYPMaker", "url": "https://sahaun.itch.io/yyp-maker" },
+    {
+      "title": "YYPMaker",
+      "url": "https://sahaun.itch.io/yyp-maker"
+    },
     {
       "title": "Runtime Asset Inspector",
       "url": "https://github.com/nommiin/meta"
@@ -115,7 +125,10 @@
       "title": "Xor's Shader Tutorials",
       "url": "https://xorshaders.weebly.com/"
     },
-    { "title": "Chunk Loading", "url": "https://github.com/tonystr/Reveen" },
+    {
+      "title": "Chunk Loading",
+      "url": "https://github.com/tonystr/Reveen"
+    },
     {
       "title": "Poisson Disk Sampling",
       "url": "https://apathyhill.com/blog/gms2-tutorial/poisson-disk-sampling"
@@ -152,7 +165,10 @@
       "title": "Another Unit Testing Framework",
       "url": "https://github.com/pmarincak/gms2-test"
     },
-    { "title": "GMEdit", "url": "https://github.com/GameMakerDiscord/GMEdit" },
+    {
+      "title": "GMEdit",
+      "url": "https://github.com/GameMakerDiscord/GMEdit"
+    },
     {
       "title": "Advanced Macro Usage",
       "url": "https://nuxiigit.github.io/content/blog/post/gml+syntax+extensions.html"
@@ -173,7 +189,10 @@
       "title": "GMExtensionPacker",
       "url": "https://github.com/DatZach/GMExtensionPacker"
     },
-    { "title": "LDtk Importer", "url": "https://shynif.itch.io/ldtk-to-gms" },
+    {
+      "title": "LDtk Importer",
+      "url": "https://shynif.itch.io/ldtk-to-gms"
+    },
     {
       "title": "LDtk Advanced Importer",
       "url": "https://github.com/evolutionleo/LDtkParser"
@@ -198,7 +217,10 @@
       "title": "i18n JSON-based Localisation",
       "url": "https://github.com/CreativeHandOficial/gm-i18n"
     },
-    { "title": "GMTwerk2", "url": "https://github.com/dicksonlaw583/GMTwerk2" },
+    {
+      "title": "GMTwerk2",
+      "url": "https://github.com/dicksonlaw583/GMTwerk2"
+    },
     {
       "title": "Various Lighting Systems",
       "url": "https://www.youtube.com/playlist?list=PLYVea5brHS8YHECGPoEp4_gWU-k6nWzUy"
@@ -219,23 +241,38 @@
       "title": "NodeJS + GM Online Framework",
       "url": "https://github.com/evolutionleo/GM-Online-Framework"
     },
-    { "title": "Fast", "url": "https://github.com/Hyomoto/FAST" },
+    {
+      "title": "Fast",
+      "url": "https://github.com/Hyomoto/FAST"
+    },
     {
       "title": "GMVerlet-Integration",
       "url": "https://github.com/tabularelf/GMVerlet-Integration"
     },
-    { "title": "SnowState", "url": "https://github.com/sohomsahaun/SnowState" },
-    { "title": "fuwafuwa", "url": "https://github.com/kemonologic/fuwafuwa" },
+    {
+      "title": "SnowState",
+      "url": "https://github.com/sohomsahaun/SnowState"
+    },
+    {
+      "title": "fuwafuwa",
+      "url": "https://github.com/kemonologic/fuwafuwa"
+    },
     {
       "title": "LWO - Light Weight Objects",
       "url": "https://github.com/tabularelf/lwo"
     },
-    { "title": "StreamUI", "url": "https://github.com/OmegaX1000/StreamUI" },
+    {
+      "title": "StreamUI",
+      "url": "https://github.com/OmegaX1000/StreamUI"
+    },
     {
       "title": "BrainfuckGM",
       "url": "https://github.com/evolutionleo/BrainfuckGM"
     },
-    { "title": "Polarca", "url": "https://github.com/VitorEstevam/polarca" },
+    {
+      "title": "Polarca",
+      "url": "https://github.com/VitorEstevam/polarca"
+    },
     {
       "title": "LDtkParser",
       "url": "https://github.com/evolutionleo/LDtkParser"
@@ -244,7 +281,10 @@
       "title": "Room Editor Friendly WarpSystem",
       "url": "https://github.com/tabularelf/Room-Editor-Friendly-WarpSystem"
     },
-    { "title": "Lexicon", "url": "https://github.com/tabularelf/lexicon" },
+    {
+      "title": "Lexicon",
+      "url": "https://github.com/tabularelf/lexicon"
+    },
     {
       "title": "GmlCppExtFuncs",
       "url": "https://github.com/YAL-GameMaker-Tools/GmlCppExtFuncs"
@@ -269,8 +309,14 @@
       "title": "DarkContract",
       "url": "https://github.com/Alprog/DarkContract"
     },
-    { "title": "GMonitor", "url": "https://github.com/DatZach/GMonitor" },
-    { "title": "pugIFF", "url": "https://github.com/nkrapivin/pugIFF" },
+    {
+      "title": "GMonitor",
+      "url": "https://github.com/DatZach/GMonitor"
+    },
+    {
+      "title": "pugIFF",
+      "url": "https://github.com/nkrapivin/pugIFF"
+    },
     {
       "title": "Sprite Atlas for GameMaker",
       "url": "https://dragonite.itch.io/sprite-atlas"
@@ -295,19 +341,34 @@
       "title": "Particle Systems",
       "url": "https://github.com/GamemakerCasts/particle-systems"
     },
-    { "title": "phgen", "url": "https://github.com/squircledev/phgen" },
+    {
+      "title": "phgen",
+      "url": "https://github.com/squircledev/phgen"
+    },
     {
       "title": "Cartoon Chickens - Cel Shading in GameMaker",
       "url": "https://dragonite.itch.io/cartoon-chickens"
     },
-    { "title": "libLassebq", "url": "https://github.com/nkrapivin/libLassebq" },
-    { "title": "GMKrypt", "url": "https://github.com/nkrapivin/GMKrypt" },
+    {
+      "title": "libLassebq",
+      "url": "https://github.com/nkrapivin/libLassebq"
+    },
+    {
+      "title": "GMKrypt",
+      "url": "https://github.com/nkrapivin/GMKrypt"
+    },
     {
       "title": "Danmaku Project - Bullet Hell Library",
       "url": "https://github.com/OmegaX1000/DanmakuProject"
     },
-    { "title": "EventGML", "url": "https://github.com/Soves/EventGML" },
-    { "title": "Crispy", "url": "https://github.com/bfrymire/crispy" },
+    {
+      "title": "EventGML",
+      "url": "https://github.com/Soves/EventGML"
+    },
+    {
+      "title": "Crispy",
+      "url": "https://github.com/bfrymire/crispy"
+    },
     {
       "title": "The Room Inspector",
       "url": "https://github.com/heygleeson/GM-RoomInspector"
@@ -328,12 +389,18 @@
       "title": "Small Pentapop Localization tool",
       "url": "https://github.com/AntonBergaker/small_pp_localization_tool"
     },
-    { "title": "Wavload", "url": "https://github.com/nkrapivin/wavload" },
+    {
+      "title": "Wavload",
+      "url": "https://github.com/nkrapivin/wavload"
+    },
     {
       "title": "Glance Outdated",
       "url": "https://github.com/Soves/Glance-outdated-"
     },
-    { "title": "Lock And Key", "url": "https://github.com/AlubJ/Lock-And-Key" },
+    {
+      "title": "Lock And Key",
+      "url": "https://github.com/AlubJ/Lock-And-Key"
+    },
     {
       "title": "Luminous Chicken - 3D Lighting Shaders for GameMaker",
       "url": "https://dragonite.itch.io/luminous-chicken-3d-lighting-shaders-for-gamemaker"
@@ -358,8 +425,14 @@
       "title": "On Slopes and Grids",
       "url": "https://forum.yoyogames.com/index.php?threads/on-slopes-and-grids-subpixel-perfect-topdown-movement-and-collision-line-without-objects.4073/"
     },
-    { "title": "Regex", "url": "https://tonystr.net/a/regex" },
-    { "title": "Circles", "url": "https://tonystr.net/a/circles" },
+    {
+      "title": "Regex",
+      "url": "https://tonystr.net/a/regex"
+    },
+    {
+      "title": "Circles",
+      "url": "https://tonystr.net/a/circles"
+    },
     {
       "title": "Vector2.gml",
       "url": "https://gist.github.com/FaultyFunctions/a81ad69046b3b3966b531cb592da6bac"
@@ -384,7 +457,10 @@
       "title": "game_restart_fixed.gml (old)",
       "url": "https://gist.github.com/tabularelf/0373fd8ff7363f5f14f71ae51410b46a"
     },
-    { "title": "nik's \"YoYo.h\"", "url": "https://pastebin.com/kBh9s9nH" },
+    {
+      "title": "nik's \"YoYo.h\"",
+      "url": "https://pastebin.com/kBh9s9nH"
+    },
     {
       "title": "gms2_gamepad_db_composer",
       "url": "https://gist.github.com/offalynne/e0a887556e8120390fc86c944e6861bf#file-gms2_gamepad_db_composer-py"
@@ -396,80 +472,95 @@
     {
       "title": "Stitch",
       "url": "https://github.com/bscotch/stitch#readme",
-      "authors": ["adam-coster", "shi-chen"],
-      "compatibility": ["Studio 2.3"],
+      "authors": [ "adam-coster", "shi-chen" ],
+      "compatibility": [ "Studio 2.3" ],
       "githubUrl": "https://github.com/bscotch/stitch",
       "description": "A Gamemaker Studio 2 Pipeline Development Kit. A CLI and Node.JS API for creating GMS2 pipelines. Includes cross-project imports, batch-creating/updating sprites and sounds, texture page management, and more.",
-      "tags": ["pipeline", "sprite"]
+      "tags": [ "pipeline", "sprite" ]
     },
     {
       "title": "Olympus",
       "url": "https://github.com/bscotch/olympus#readme",
-      "authors": ["shi-chen"],
-      "compatibility": ["Studio 2.3"],
+      "authors": [ "shi-chen" ],
+      "compatibility": [ "Studio 2.3" ],
       "description": "A test GML test library enabling complex test management, including asynchronous and user-input testing.",
       "githubUrl": "https://github.com/bscotch/olympus",
-      "tags": ["pipeline", "test"]
+      "tags": [ "pipeline", "test" ]
+    },
+    {
+      "title": "Fauxton3D",
+      "url": "https://gizmo199.itch.io/fauxton3d",
+      "authors": [ "Gizmo199" ],
+      "compatibility": [ "Studio 2.3" ],
+      "githubUrl": "https://github.com/Gizmo199/fauxton3D",
+      "description": "A 2.5d Sprite-Stacking framework for Game Maker Studio 2",
+      "tags": [ "pipeline", "graphics", "sprite" ]
     }
   ],
   "authors": {
     "adam-coster": {
       "name": "Adam Coster",
-      "affiliations": ["Butterscotch Shenanigans"],
+      "affiliations": [ "Butterscotch Shenanigans" ],
       "github": "adam-coster",
       "twitter": "costerad",
       "website": "https://bscotch.net/about#adam-coster"
     },
     "shi-chen": {
       "name": "Shi Chen",
-      "affiliations": ["Butterscotch Shenanigans"],
+      "affiliations": [ "Butterscotch Shenanigans" ],
       "github": "shichen85",
       "website": "https://bscotch.net/about#shi-chen"
     },
-	"twisterghost": {
-	  "name": "Michael Barrett",
-	  "github": "twisterghost",
-	  "website": "https://mjb.im/"
-	},
-	"gleb-tsereteli": {
-	  "name": "Gleb Tsereteli",
-      "affiliations": ["Gutpunch Studios"],
-	  "github": "glebpunch",
+    "twisterghost": {
+      "name": "Michael Barrett",
+      "github": "twisterghost",
+      "website": "https://mjb.im/"
+    },
+    "gleb-tsereteli": {
+      "name": "Gleb Tsereteli",
+      "affiliations": [ "Gutpunch Studios" ],
+      "github": "glebpunch",
       "twitter": "glebtsereteli",
-	  "website": "https://gutpunchstudios.com/"
-	},
-	"datzach": {
-	  "name": "Zach Reedy",
-      "affiliations": ["YoYo Games"],
-	  "github": "DatZach",
+      "website": "https://gutpunchstudios.com/"
+    },
+    "datzach": {
+      "name": "Zach Reedy",
+      "affiliations": [ "YoYo Games" ],
+      "github": "DatZach",
       "twitter": "DatZach",
-	  "website": "http://zreedy.com/"
-	},
-	"juju-adams": {
-	  "name": "Juju Adams",
-	  "github": "jujuadams",
+      "website": "http://zreedy.com/"
+    },
+    "juju-adams": {
+      "name": "Juju Adams",
+      "github": "jujuadams",
       "twitter": "jujuadams",
-	  "website": "https://www.jujuadams.com/"
-	},
-	"nommiin": {
-	  "name": "Torin Freimiller",
-      "affiliations": ["Innersloth"],
-	  "github": "nommiin",
+      "website": "https://www.jujuadams.com/"
+    },
+    "nommiin": {
+      "name": "Torin Freimiller",
+      "affiliations": [ "Innersloth" ],
+      "github": "nommiin",
       "twitter": "Nommiin",
-	  "website": "https://nomm.dev/"
-	},
-	"odditica": {
-	  "name": "Jan Vorisek",
-      "affiliations": ["SCS Software"],
-	  "github": "odditica",
+      "website": "https://nomm.dev/"
+    },
+    "odditica": {
+      "name": "Jan Vorisek",
+      "affiliations": [ "SCS Software" ],
+      "github": "odditica",
       "twitter": "odditica",
-	  "website": "https://odditica.fyi/"
-	},
-	"dragonitespam": {
-	  "name": "Michael",
-	  "github": "DragoniteSpam",
+      "website": "https://odditica.fyi/"
+    },
+    "dragonitespam": {
+      "name": "Michael",
+      "github": "DragoniteSpam",
       "twitter": "DragoniteSpam",
-	  "website": "https://www.youtube.com/c/DragoniteSpam/about"
-	}
+      "website": "https://www.youtube.com/c/DragoniteSpam/about"
+    },
+    "Gizmo199": {
+      "name": "Gizmo199",
+      "github": "Gizmo199",
+      "twitter": "gamedev_gizmo",
+      "website": "https://gizmo199.itch.io/"
+    }
   }
 }
