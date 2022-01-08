@@ -40,6 +40,8 @@ see the [Contributing Guide](./CONTRIBUTING.md).
 
 [OOP Array Class](https://github.com/evolutionleo/ArrayClass)
 
+[Video Player for Windows and Ubuntu](https://forum.yoyogames.com/index.php?threads/video-player-for-windows-and-ubuntu.77882/)
+
 [ShaderToy to GameMaker Converter](https://iarri.github.io/Shadertoy2GM/)
 
 [SnowState (State Machine)](https://github.com/sohomsahaun/SnowState)
