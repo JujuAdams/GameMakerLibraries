@@ -19,7 +19,10 @@
       "title": "GMS2.3 Destructors",
       "url": "https://github.com/DatZach/Destructors"
     },
-    { "title": "Community Wiki", "url": "https://gmcw.dev/" },
+    {
+      "title": "Community Wiki",
+      "url": "https://gmcw.dev/"
+    },
     {
       "title": "RenderDoc for GameMaker",
       "url": "https://github.com/Blokatt/renderdoc-gms2-kit"
@@ -49,7 +52,10 @@
       "title": "SnowState (State Machine)",
       "url": "https://github.com/sohomsahaun/SnowState"
     },
-    { "title": "YYPMaker", "url": "https://sahaun.itch.io/yyp-maker" },
+    {
+      "title": "YYPMaker",
+      "url": "https://sahaun.itch.io/yyp-maker"
+    },
     {
       "title": "Runtime Asset Inspector",
       "url": "https://github.com/nommiin/meta"
@@ -80,7 +86,8 @@
     },
     {
       "title": "Xor's Shader Tutorials",
-      "url": "https://xorshaders.weebly.com/"
+      "url": "https://xorshaders.weebly.com/",
+      "tags": ["graphics", "shader"]
     },
     { "title": "Chunk Loading", "url": "https://github.com/tonystr/Reveen" },
     {
@@ -147,7 +154,8 @@
     },
     {
       "title": "Ultralight (HTML Renderer)",
-      "url": "https://github.com/nommiin/ultralight-gm"
+      "url": "https://github.com/nommiin/ultralight-gm",
+      "tags": ["graphics"]
     },
     {
       "title": "Three Mice In A Trenchcoat Source",
@@ -159,7 +167,8 @@
     },
     {
       "title": "GameMaker .win Unpacker",
-      "url": "https://github.com/nkrapivin/pugIFF"
+      "url": "https://github.com/nkrapivin/pugIFF",
+      "tags": ["miscellaneous"]
     },
     {
       "title": "i18n JSON-based Localisation",
@@ -169,10 +178,6 @@
     {
       "title": "Various Lighting Systems",
       "url": "https://www.youtube.com/playlist?list=PLYVea5brHS8YHECGPoEp4_gWU-k6nWzUy"
-    },
-    {
-      "title": ".webm Video Player",
-      "url": "https://marketplace.yoyogames.com/assets/9790/webm-player"
     },
     {
       "title": "JSONBabel (Translation)",
@@ -197,12 +202,19 @@
       "title": "LWO - Light Weight Objects",
       "url": "https://github.com/tabularelf/lwo"
     },
-    { "title": "StreamUI", "url": "https://github.com/OmegaX1000/StreamUI" },
+    {
+      "title": "StreamUI",
+      "url": "https://github.com/OmegaX1000/StreamUI"
+    },
     {
       "title": "BrainfuckGM",
-      "url": "https://github.com/evolutionleo/BrainfuckGM"
+      "url": "https://github.com/evolutionleo/BrainfuckGM",
+      "tags": ["miscellaneous"]
     },
-    { "title": "Polarca", "url": "https://github.com/VitorEstevam/polarca" },
+    {
+      "title": "Polarca",
+      "url": "https://github.com/VitorEstevam/polarca"
+    },
     {
       "title": "LDtkParser",
       "url": "https://github.com/evolutionleo/LDtkParser"
@@ -211,7 +223,10 @@
       "title": "Room Editor Friendly WarpSystem",
       "url": "https://github.com/tabularelf/Room-Editor-Friendly-WarpSystem"
     },
-    { "title": "Lexicon", "url": "https://github.com/tabularelf/lexicon" },
+    {
+      "title": "Lexicon",
+      "url": "https://github.com/tabularelf/lexicon"
+    },
     {
       "title": "GmlCppExtFuncs",
       "url": "https://github.com/YAL-GameMaker-Tools/GmlCppExtFuncs"
@@ -230,7 +245,8 @@
     },
     {
       "title": "Lots of Colours for GameMaker",
-      "url": "https://dragonite.itch.io/lotsa-colors"
+      "url": "https://dragonite.itch.io/lotsa-colors",
+      "tags": ["graphics"]
     },
     {
       "title": "DarkContract",
@@ -240,7 +256,8 @@
     { "title": "pugIFF", "url": "https://github.com/nkrapivin/pugIFF" },
     {
       "title": "Sprite Atlas for GameMaker",
-      "url": "https://dragonite.itch.io/sprite-atlas"
+      "url": "https://dragonite.itch.io/sprite-atlas",
+      "tags": ["graphics"]
     },
     {
       "title": "Blend Mode Preview",
@@ -262,7 +279,10 @@
       "title": "Particle Systems",
       "url": "https://github.com/GamemakerCasts/particle-systems"
     },
-    { "title": "phgen", "url": "https://github.com/squircledev/phgen" },
+    {
+      "title": "phgen",
+      "url": "https://github.com/squircledev/phgen"
+    },
     {
       "title": "Cartoon Chickens - Cel Shading in GameMaker",
       "url": "https://dragonite.itch.io/cartoon-chickens"
@@ -303,7 +323,8 @@
     { "title": "Lock And Key", "url": "https://github.com/AlubJ/Lock-And-Key" },
     {
       "title": "Luminous Chicken - 3D Lighting Shaders for GameMaker",
-      "url": "https://dragonite.itch.io/luminous-chicken-3d-lighting-shaders-for-gamemaker"
+      "url": "https://dragonite.itch.io/luminous-chicken-3d-lighting-shaders-for-gamemaker",
+      "tags": ["graphics", "shader"]
     },
     {
       "title": "ArrayClass",
@@ -311,11 +332,13 @@
     },
     {
       "title": "Bogosort for GameMaker",
-      "url": "https://dragonite.itch.io/bogosort-for-gamemaker"
+      "url": "https://dragonite.itch.io/bogosort-for-gamemaker",
+      "tags": ["miscellaneous"]
     },
     {
       "title": "Various Extensions",
-      "url": "https://samuel-venable.itch.io/gamemaker-extension-collection"
+      "url": "https://samuel-venable.itch.io/gamemaker-extension-collection",
+      "tags": ["miscellaneous"]
     },
     {
       "title": "Stack3d Guide",
@@ -349,7 +372,8 @@
     },
     {
       "title": "game_restart_fixed.gml (old)",
-      "url": "https://gist.github.com/tabularelf/0373fd8ff7363f5f14f71ae51410b46a"
+      "url": "https://gist.github.com/tabularelf/0373fd8ff7363f5f14f71ae51410b46a",
+      "tags": ["miscellaneous"]
     },
     { "title": "nik's \"YoYo.h\"", "url": "https://pastebin.com/kBh9s9nH" },
     {
@@ -358,7 +382,8 @@
     },
     {
       "title": "GMHandshake.cs",
-      "url": "https://gist.github.com/nkrapivin/c73f5a962466a4ecb63187a009a300d8"
+      "url": "https://gist.github.com/nkrapivin/c73f5a962466a4ecb63187a009a300d8",
+      "tags": ["networking"]
     },
     {
       "title": "Stitch",
